@@ -1,0 +1,50 @@
+﻿@page "/"
+
+<PageTitle>Index</PageTitle>
+
+<br />
+<div class="row">
+    <div class="col-2"></div>
+    <div class="col-8">
+        <MudCard>
+            <MudCardHeader>
+                <CardHeaderAvatar>
+                    <MudIconButton Icon="@Icons.Material.Filled.MonetizationOn" Color="Color.Inherit" />
+                    <MudIconButton Icon="@Icons.Custom.Brands.YouTube" Color="Color.Inherit" />
+                    <MudIconButton Icon="@Icons.Custom.Brands.Twitter" Color="Color.Inherit" />
+                </CardHeaderAvatar>
+                <CardHeaderContent>
+
+                </CardHeaderContent>
+                <CardHeaderActions>
+                    <MudIconButton Icon="@Icons.Material.Filled.Favorite" Color="Color.Default" />
+                    <MudIconButton Icon="@Icons.Material.Filled.Share" Color="Color.Default" />
+                </CardHeaderActions>
+            </MudCardHeader>
+            <MudCardMedia Image="./Images/devgrouphero_2880x1200.png" Height="450" />
+            <MudCardContent>
+                <div class="row">
+                    <div class="row-4">
+                        <MudText>Duration : <span>00:06:59</span></MudText>
+                    </div>
+                    <div class="row-8">
+                        <MudDivider />
+                        <MudText Typo="Typo.h3">Blazor WebAssembly runtime size</MudText>
+                        <MudText Typo="Typo.h6">John Doe</MudText>
+                        <MudText Typo="Typo.body1" Color="Color.Primary">$ 0.00</MudText>
+                        <MudDivider Class="m-2"/>
+                        <MudText Typo="Typo.body1" Class="mb-2"><i>Details</i></MudText>
+                        <MudText Typo="Typo.subtitle2">
+                            There have been a lot of claims that Blazor Webassembly is huge in size, and that you have to download megabytes in order for it to work.
+                            This video shows those claims are false and that Blazor Wasm is actually small in size.
+                        </MudText>
+                    </div>
+                </div>
+            </MudCardContent>
+            <MudCardActions>
+
+            </MudCardActions>
+        </MudCard>
+    </div>
+    <div class="col-2"></div>
+</div>
